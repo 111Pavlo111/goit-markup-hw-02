@@ -1,37 +1,143 @@
-/*загальний СSS*/
+/*загальні стилі*/
 :root{
-    --title-color:#2E2F42;
-    --text-color:#434455;
-    --white-color: #fff;
-    --logo-color: #4D5AE5;
-    --bkc-color:#2E2F42;
 
+/*кольори шрифтів*/
+--title-txt-color: #2E2F42;
+--txt-color: #434455;    
+--white-txt-color: #fff;
+
+/*background-color*/
+--section1-color: #E5E5E5;
+--section3-color: #F4F4FD;
+
+/*logo*/
+--logo-color: #4D5AE5;
 }
-/* body style*/
+/*body style*/
+
 body{
-    color: var(--text-color);
-    font-family: 'Roboto', sans-serif;
-    
-}
-ul{
-    text-decoration: none; 
-}
-/*лого стилы*/
-.logo{
-    color: var(--logo-color);
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-weight: 800;
-    
-}
-.heder-logo{
-color:var(--title-color);
-font-family: 'Raleway';
-font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    color: var(--txt-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.02em;
 }
 
-.heder-nav{
-    color:var(--title-color)
+/*heder bg*/
+.header-bg{
+    background-color: var(--white-txt-color);
+}
+/*zaburaem krapku*/
+.list{
+    list-style-type: none;
+}
+/*link style*/
+.link{
+    text-decoration: none;
+}
+
+/*logo style*/
+.logo{
+    color:var(--logo-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.span-logo{
+    color: var(--title-txt-color);
+    
+}
+/*nav style*/
+.header-nav:hover,
+.header-nav:focus{
+    color: var(--title-txt-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.address:hover,
+.address:focus{
+    color: var(--txt-color);
+}
+
+.hero-section{
+    background-color: var(--title-txt-color);
+}
+
+/*section background*/
+.section-one{
+    background-color: var(--section1-color);
+}
+
+/*title style*/
+.main-title{
+    color:var(--white-txt-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+
+.btn{
+    font-family: inherit;
+    background-color: var(--logo-color);
+    color: var(--white-txt-color);
+}
+
+
+/*zaholovku h3 section 1*/
+.second-title{
+    color: var(--title-txt-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/* paragraf*/
+.about-title{
+    color: var(--txt-color);
+}
+
+/*section about*/
+.about-section{
+    color: var(--title-txt-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/*section 3 background*/
+.section-bg
+{
+    background-color: var(--section3-color);
+}
+
+
+
+
+/*footer*/
+.footer-bg{
+    background-color: var(--title-txt-color);
+}
+
+.footer-txt{
+    color: var(--section3-color);
+}
+
+.portfolio-header-bg{
+    background-color: var(--white-txt-color);
+}
+
+.main-bg{
     
 }
