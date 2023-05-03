@@ -90,6 +90,10 @@ body{
 }
 
 /*title style*/
+.section-title{
+
+}
+
 .main-title{
     color:var(--white-txt-color);
     font-weight: 700;
@@ -182,7 +186,14 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-txt-color);
-    
+
 }
 
+.title-portfolio{
+
+}
+
+.title-hidden{
+    
+}
 
