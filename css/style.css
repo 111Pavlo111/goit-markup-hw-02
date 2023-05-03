@@ -114,6 +114,11 @@ body{
     background-color: #404BBF
 }
 
+.btn-style{
+    color: var(--logo-color);
+    background-color: var(--section3-color);
+}
+
 
 /*zaholovku h3 section 1*/
 .second-title{
@@ -121,6 +126,7 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em
 }
 
 /* paragraf*/
@@ -168,6 +174,15 @@ body{
 
 .portfolio-header-bg{
     background-color: var(--white-txt-color);
+}
+
+.title-portfolio{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-txt-color);
+    
 }
 
 
