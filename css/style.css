@@ -118,9 +118,19 @@ body{
     background-color: #404BBF
 }
 
-.btn-style{
+.btn-portfolio{
     color: var(--logo-color);
     background-color: var(--section3-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus{
+    color: var(--white-txt-color);
+    background-color: #404BBF;
 }
 
 
@@ -189,11 +199,12 @@ body{
 
 }
 
-.title-portfolio{
+.title-port{
+    color: var(--txt-color);
 
 }
 
 .title-hidden{
-    
+
 }
 
